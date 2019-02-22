@@ -18,6 +18,8 @@
 		FFE30B12221F71C600E9CF4F /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B11221F71C600E9CF4F /* GameObject.swift */; };
 		FFE30B14221F728F00E9CF4F /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B13221F728F00E9CF4F /* Background.swift */; };
 		FFE30B16221F7AF100E9CF4F /* SpinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B15221F7AF100E9CF4F /* SpinButton.swift */; };
+		FFE30B1A221F8D7500E9CF4F /* QuitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B19221F8D7500E9CF4F /* QuitButton.swift */; };
+		FFE30B1C221F906100E9CF4F /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B1B221F906100E9CF4F /* ResetButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		FFE30B11221F71C600E9CF4F /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		FFE30B13221F728F00E9CF4F /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		FFE30B15221F7AF100E9CF4F /* SpinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinButton.swift; sourceTree = "<group>"; };
+		FFE30B19221F8D7500E9CF4F /* QuitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitButton.swift; sourceTree = "<group>"; };
+		FFE30B1B221F906100E9CF4F /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				FFE30B11221F71C600E9CF4F /* GameObject.swift */,
 				FFE30B13221F728F00E9CF4F /* Background.swift */,
 				FFE30B15221F7AF100E9CF4F /* SpinButton.swift */,
+				FFE30B19221F8D7500E9CF4F /* QuitButton.swift */,
+				FFE30B1B221F906100E9CF4F /* ResetButton.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -166,9 +172,11 @@
 				FFE30B12221F71C600E9CF4F /* GameObject.swift in Sources */,
 				FFE30AFF221F6DD100E9CF4F /* GameScene.swift in Sources */,
 				FFE30B01221F6DD100E9CF4F /* GameViewController.swift in Sources */,
+				FFE30B1C221F906100E9CF4F /* ResetButton.swift in Sources */,
 				FFE30B16221F7AF100E9CF4F /* SpinButton.swift in Sources */,
 				FFE30AF9221F6DD100E9CF4F /* AppDelegate.swift in Sources */,
 				FFE30B14221F728F00E9CF4F /* Background.swift in Sources */,
+				FFE30B1A221F8D7500E9CF4F /* QuitButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
