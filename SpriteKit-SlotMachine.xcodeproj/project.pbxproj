@@ -15,6 +15,9 @@
 		FFE30B04221F6DD100E9CF4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE30B02221F6DD100E9CF4F /* Main.storyboard */; };
 		FFE30B06221F6DD200E9CF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE30B05221F6DD200E9CF4F /* Assets.xcassets */; };
 		FFE30B09221F6DD200E9CF4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE30B07221F6DD200E9CF4F /* LaunchScreen.storyboard */; };
+		FFE30B12221F71C600E9CF4F /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B11221F71C600E9CF4F /* GameObject.swift */; };
+		FFE30B14221F728F00E9CF4F /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B13221F728F00E9CF4F /* Background.swift */; };
+		FFE30B16221F7AF100E9CF4F /* SpinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE30B15221F7AF100E9CF4F /* SpinButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		FFE30B05221F6DD200E9CF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE30B08221F6DD200E9CF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE30B0A221F6DD200E9CF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE30B11221F71C600E9CF4F /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		FFE30B13221F728F00E9CF4F /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		FFE30B15221F7AF100E9CF4F /* SpinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 		FFE30AEC221F6DD100E9CF4F = {
 			isa = PBXGroup;
 			children = (
+				FFE30B10221F6FF200E9CF4F /* Objects */,
 				FFE30AF7221F6DD100E9CF4F /* SpriteKit-SlotMachine */,
 				FFE30AF6221F6DD100E9CF4F /* Products */,
 			);
@@ -71,6 +78,16 @@
 				FFE30B0A221F6DD200E9CF4F /* Info.plist */,
 			);
 			path = "SpriteKit-SlotMachine";
+			sourceTree = "<group>";
+		};
+		FFE30B10221F6FF200E9CF4F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FFE30B11221F71C600E9CF4F /* GameObject.swift */,
+				FFE30B13221F728F00E9CF4F /* Background.swift */,
+				FFE30B15221F7AF100E9CF4F /* SpinButton.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE30B12221F71C600E9CF4F /* GameObject.swift in Sources */,
 				FFE30AFF221F6DD100E9CF4F /* GameScene.swift in Sources */,
 				FFE30B01221F6DD100E9CF4F /* GameViewController.swift in Sources */,
+				FFE30B16221F7AF100E9CF4F /* SpinButton.swift in Sources */,
 				FFE30AF9221F6DD100E9CF4F /* AppDelegate.swift in Sources */,
+				FFE30B14221F728F00E9CF4F /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
